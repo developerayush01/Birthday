@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gift-box {
+    width: 150px;
+    height: 150px;
+    background: url("reshot-icon-giftbox-HDPX6NA2MC.svg") no-repeat center center/cover;
+    cursor: pointer;
+    display: none;
+}
+.gift-box.open {
+    background: url('https://cdn-icons-png.flaticon.com/512/609/609803.png') no-repeat center center/cover;
+}
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
