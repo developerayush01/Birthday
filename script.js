@@ -8,6 +8,8 @@ button.addEventListener("click", () => {
   } else {
     document.querySelector(".para").style.display = "none";
     document.querySelector(".gift-box").style.display = "block";
+    button.innerHTML="Click the Gift-box below";
+    button.disabled="true";
   }
 });
 message.addEventListener("click", () => {
@@ -18,6 +20,8 @@ message.addEventListener("click", () => {
   audio.style.display = "block";
   audio.play();
   document.querySelector(".button").style.display="block";
+  document.querySelector(".top").style.display="block";
+  document.querySelector(".scared").style.display="block";
   document.querySelector(".button").addEventListener("click", () => {
     // Open a new tab with the YouTube video link (replace with your video URL)
     window.open("https://www.youtube.com/watch?v=giCvgTi2pXA", "_blank");
